@@ -1,0 +1,14 @@
+from setuptools import setup, find_packages
+ 
+setup(
+    name='lib4climex',
+    version="0.0.1",
+    description="Analysis packege",
+    long_description="",
+    author='digital twin climate subteam',
+    license='MIT',
+    classifiers=[
+        "Development Status :: 1 - Planning"
+    ]
+    ,packages=['lib4climex',]
+)
